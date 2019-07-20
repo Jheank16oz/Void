@@ -15,6 +15,8 @@
 		0E00E0B422E1F857008E2506 /* Ios_CatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E00E0B322E1F857008E2506 /* Ios_CatalogTests.swift */; };
 		0E00E0BF22E1F857008E2506 /* Ios_CatalogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E00E0BE22E1F857008E2506 /* Ios_CatalogUITests.swift */; };
 		0E00E0CF22E266EE008E2506 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E00E0CE22E266EE008E2506 /* PlaySoundsViewController.swift */; };
+		0E05AE6A22E3B16E006A0896 /* Screen Shot 2019-07-20 at 3.27.50 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E05AE6822E3B16E006A0896 /* Screen Shot 2019-07-20 at 3.27.50 PM.png */; };
+		0E05AE6B22E3B16E006A0896 /* Screen Shot 2019-07-20 at 3.28.09 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E05AE6922E3B16E006A0896 /* Screen Shot 2019-07-20 at 3.28.09 PM.png */; };
 		0E480DC022E2B5A900BCA5B3 /* PlaySoundsViewController+audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E480DBF22E2B5A900BCA5B3 /* PlaySoundsViewController+audio.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +52,8 @@
 		0E00E0BE22E1F857008E2506 /* Ios_CatalogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ios_CatalogUITests.swift; sourceTree = "<group>"; };
 		0E00E0C022E1F857008E2506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E00E0CE22E266EE008E2506 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		0E05AE6822E3B16E006A0896 /* Screen Shot 2019-07-20 at 3.27.50 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2019-07-20 at 3.27.50 PM.png"; sourceTree = "<group>"; };
+		0E05AE6922E3B16E006A0896 /* Screen Shot 2019-07-20 at 3.28.09 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2019-07-20 at 3.28.09 PM.png"; sourceTree = "<group>"; };
 		0E480DBF22E2B5A900BCA5B3 /* PlaySoundsViewController+audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +105,7 @@
 		0E00E09D22E1F856008E2506 /* Ios Catalog */ = {
 			isa = PBXGroup;
 			children = (
+				0E05AE6722E3B146006A0896 /* public */,
 				0E00E09E22E1F856008E2506 /* AppDelegate.swift */,
 				0E00E0A022E1F856008E2506 /* RecordViewController.swift */,
 				0E00E0A222E1F856008E2506 /* Main.storyboard */,
@@ -129,6 +134,15 @@
 				0E00E0C022E1F857008E2506 /* Info.plist */,
 			);
 			path = "Ios CatalogUITests";
+			sourceTree = "<group>";
+		};
+		0E05AE6722E3B146006A0896 /* public */ = {
+			isa = PBXGroup;
+			children = (
+				0E05AE6822E3B16E006A0896 /* Screen Shot 2019-07-20 at 3.27.50 PM.png */,
+				0E05AE6922E3B16E006A0896 /* Screen Shot 2019-07-20 at 3.28.09 PM.png */,
+			);
+			path = public;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +252,8 @@
 				0E00E0A922E1F857008E2506 /* LaunchScreen.storyboard in Resources */,
 				0E00E0A622E1F857008E2506 /* Assets.xcassets in Resources */,
 				0E00E0A422E1F856008E2506 /* Main.storyboard in Resources */,
+				0E05AE6B22E3B16E006A0896 /* Screen Shot 2019-07-20 at 3.28.09 PM.png in Resources */,
+				0E05AE6A22E3B16E006A0896 /* Screen Shot 2019-07-20 at 3.27.50 PM.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
